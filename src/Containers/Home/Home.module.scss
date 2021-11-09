@@ -1,0 +1,28 @@
+.Home {
+  height: 100vh;
+  padding-top: 25vh;
+  border: 1px solid black;
+  margin-top: 0;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  z-index: -1;
+  color: black;
+  background: linear-gradient(to right, rgba(#272727, 0.9), rgba(#272727, 0.3));
+
+  &_text {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+    &_firstName {
+      font-size: 5rem;
+      border-bottom: 2px solid white;
+      margin-bottom: 1rem;
+    }
+
+    &_lastName {
+      color: crimson;
+      font-weight: 700;
+    }
+  }
+}

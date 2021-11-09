@@ -1,0 +1,11 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./Components/NavBar/NavBar.module.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}

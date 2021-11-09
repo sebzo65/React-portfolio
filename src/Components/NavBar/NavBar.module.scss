@@ -1,0 +1,51 @@
+@import "~bootstrap/scss/bootstrap";
+
+.Container {
+  position: absolute;
+  right: 2.3rem;
+  margin-top: 0;
+  width: 28px;
+  height: 0px;
+
+  &_Toggle {
+    background-color: crimson;
+  }
+}
+.Nav {
+  background-color: #dc143c;
+
+  .Offcanvas_Header {
+    display: flex;
+    color: white;
+    border: 2px solid white;
+
+    &_Title {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      text-decoration: underline;
+    }
+  }
+
+  &_List {
+    list-style: none;
+    border-bottom: 1px double white;
+    height: 60%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &_ItemLink {
+      text-align: center;
+      font-family: "Rampart One";
+      font-size: 2em;
+      color: white;
+      text-decoration: none;
+
+      &:hover {
+        color: black;
+      }
+    }
+  }
+}
