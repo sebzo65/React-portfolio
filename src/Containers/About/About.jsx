@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./About.module.scss";
 import {
   MDBCard,
   MDBCardImage,
@@ -11,7 +12,7 @@ import {
 
 const About = () => {
   return (
-    <div>
+    <div className={styles.About}>
       <MDBRow className="row-cols-1 row-cols-md-2 g-4">
         <MDBCol>
           <MDBCard>

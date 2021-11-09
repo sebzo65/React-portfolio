@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Home.module.scss";
+import Footer from "../../Components/Footer";
 
 const Home = () => {
   return (
